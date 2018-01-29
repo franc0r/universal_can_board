@@ -1,4 +1,4 @@
-update=Sa 27 Jan 2018 22:26:44 CET
+update=Mo 29 Jan 2018 16:17:03 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,13 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/home/knueppl/repos/kicad-library/library/ftdi
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

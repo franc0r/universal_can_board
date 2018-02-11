@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:universal-can-board-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -56,7 +57,7 @@ F 3 "" H 2550 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L USB_OTG P1
+L USB_OTG-RESCUE-universal-can-board P1
 U 1 1 5A6CECE5
 P 4450 6850
 F 0 "P1" H 4775 6725 50  0000 C CNN
@@ -218,7 +219,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 1650 4600 1800
 $Comp
-L LM1117-3.3 U2
+L LM1117-3.3-RESCUE-universal-can-board U2
 U 1 1 5A6D051D
 P 5350 6850
 F 0 "U2" H 5450 6600 50  0000 C CNN
@@ -1923,4 +1924,41 @@ Wire Wire Line
 	1750 7400 1750 6800
 Wire Wire Line
 	9850 4000 9850 3950
+$Comp
+L C C6
+U 1 1 5A806EAE
+P 5050 4500
+F 0 "C6" H 5075 4600 50  0000 L CNN
+F 1 "100n" H 5075 4400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 5088 4350 50  0001 C CNN
+F 3 "" H 5050 4500 50  0001 C CNN
+	1    5050 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VCC #PWR044
+U 1 1 5A80704F
+P 5050 4200
+F 0 "#PWR044" H 5050 4050 50  0001 C CNN
+F 1 "VCC" H 5050 4350 50  0000 C CNN
+F 2 "" H 5050 4200 50  0001 C CNN
+F 3 "" H 5050 4200 50  0001 C CNN
+	1    5050 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR045
+U 1 1 5A8070F1
+P 5050 5900
+F 0 "#PWR045" H 5050 5650 50  0001 C CNN
+F 1 "GND" H 5050 5750 50  0000 C CNN
+F 2 "" H 5050 5900 50  0001 C CNN
+F 3 "" H 5050 5900 50  0001 C CNN
+	1    5050 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4650 5050 5900
+Wire Wire Line
+	5050 4200 5050 4350
 $EndSCHEMATC

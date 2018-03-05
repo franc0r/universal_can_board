@@ -1,4 +1,4 @@
-update=Sun 11 Feb 2018 16:39:16 CET
+update=Sa 03 Mär 2018 16:27:09 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -70,3 +70,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=/home/knueppl/repos/kicad-library/library/ftdi
+LibName32=switches

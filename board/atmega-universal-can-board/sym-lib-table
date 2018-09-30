@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name universal-can-board-rescue)(type Legacy)(uri ${KIPRJMOD}/universal-can-board-rescue.lib)(options "")(descr ""))
+)
